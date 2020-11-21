@@ -22,7 +22,7 @@ print("Initializing Mimir...")
 mimir = pyttsx3.init()
 voices = mimir.getProperty('voices')
 mimir.setProperty('voice', voices[7].id) 
-mimir.setProperty('rate', 215)
+mimir.setProperty('rate', 200)
 print("Mimir on standby.")
 print()
 
